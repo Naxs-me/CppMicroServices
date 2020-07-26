@@ -1,3 +1,6 @@
+Continuous Integration using Github Actions
+===========================================
+Various tests are defined in CMakeLists.txt including thread safety tests. Whenever the development and master branches are updated, the project is built using Cmake hence all the tests defined in it are also run automatically. This CI automates the task of building and testing this project.
 
 .. rubric:: Continuous Integration Status
 
